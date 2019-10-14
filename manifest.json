@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube No Playlist!",
+    "version": "0.0.1",
+
+    "developer": {
+        "name": "Klemens Schölhorn",
+        "url": "https://klemens.schoelhorn.eu/"
+    },
+
+    "description": "Open YouTube playlist videos without the playlist in a new tab.",
+
+    "applications": {
+        "gecko": {
+            "id": "youtube-no-playlist@klemens.io"
+        }
+    },
+
+    "icons": {
+        "16": "icon/normal.svg",
+        "32": "icon/normal.svg",
+        "48": "icon/normal.svg",
+        "96": "icon/normal.svg"
+    },
+
+    "permissions": [
+        "menus"
+    ],
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
